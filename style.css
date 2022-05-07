@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Simonetta:wght@900&display=swap');
+*,::before,::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;   font-family: 'Open Sans', sans-serif;
+font-size: large;
+}
+main{
+    min-height: 97vh;
+    background-color:black;
+    color:yellow; 
+
+   
+}
+.head{
+    padding: 5%;
+    margin-bottom: 1%;
+ 
+}
+header h1{
+    font-size: 300%;
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    margin-bottom: 25px;
+    padding: 2%;
+}
+form input{
+    width:45%;
+    padding: 10px;
+}
+form input::placeholder{
+    color: #000;
+}
+form button{
+    margin-left: 10px;
+    padding: 10px;
+}
+ul{
+    margin: 0 auto;
+    position: inherit;
+    width: 50%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  
+}
+#tasks li{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+border:1px solid #fff ;
+    position: relative;
+ 
+}
+li h3,li div , li button{
+    display: inline;
+  
+
+
+}
+li h1,li button{
+    width: 20%;
+}
+li div{
+    padding: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    width: 60%;
+}
+
+#pending{
+   
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+}
+.pol{
+    text-align: center;
+    color: yellow;
+   padding:10px;
+    background-color: #000;
+}
